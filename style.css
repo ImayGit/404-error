@@ -1,0 +1,58 @@
+body {
+   height: 100vh; 
+}
+header {
+    height: 15vh;
+    font-family:"Inconsolata", monospace;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+main {
+    padding: 6rem;
+    height: 80vh;
+}
+.image-warp {
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+.image-warp img {
+    width: 60%;
+    float: right;
+    margin-right: 45px;
+}
+.content-wrap {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Space Mono", monospace;
+}
+.content-wrap h1 {
+    font-size: 3rem;
+    color: #232323;
+}
+.content-wrap p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #606060;
+    line-height: 2;
+}
+.content-wrap a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #333333;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d7d7d7;
+}
+footer {
+    height: 5vh;
+    text-align: center;
+    font-size: 18px;
+    color:#bcbbbb;
+    font-family: "Space Mono", monospace;
+}
